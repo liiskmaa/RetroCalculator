@@ -14,6 +14,12 @@
 		3DA2AC571C554EC3005C6FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA2AC551C554EC3005C6FE6 /* LaunchScreen.storyboard */; };
 		3DA2AC621C554EC3005C6FE6 /* retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA2AC611C554EC3005C6FE6 /* retro_calculatorTests.swift */; };
 		3DA2AC6D1C554EC3005C6FE6 /* retro_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA2AC6C1C554EC3005C6FE6 /* retro_calculatorUITests.swift */; };
+		3DA2AC7B1C556ACC005C6FE6 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DA2AC7A1C556ACC005C6FE6 /* Minecraft.ttf */; };
+		3DA2AC7C1C556ACC005C6FE6 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DA2AC7A1C556ACC005C6FE6 /* Minecraft.ttf */; };
+		3DA2AC7D1C556ACC005C6FE6 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DA2AC7A1C556ACC005C6FE6 /* Minecraft.ttf */; };
+		3DA2AC7F1C557187005C6FE6 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA2AC7E1C557187005C6FE6 /* btn.wav */; };
+		3DA2AC801C557187005C6FE6 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA2AC7E1C557187005C6FE6 /* btn.wav */; };
+		3DA2AC811C557187005C6FE6 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DA2AC7E1C557187005C6FE6 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		3DA2AC681C554EC3005C6FE6 /* retro-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retro-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA2AC6C1C554EC3005C6FE6 /* retro_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_calculatorUITests.swift; sourceTree = "<group>"; };
 		3DA2AC6E1C554EC3005C6FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA2AC7A1C556ACC005C6FE6 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		3DA2AC7E1C557187005C6FE6 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		3DA2AC401C554EC3005C6FE6 = {
 			isa = PBXGroup;
 			children = (
+				3DA2AC7E1C557187005C6FE6 /* btn.wav */,
+				3DA2AC7A1C556ACC005C6FE6 /* Minecraft.ttf */,
 				3DA2AC4B1C554EC3005C6FE6 /* retro-calculator */,
 				3DA2AC601C554EC3005C6FE6 /* retro-calculatorTests */,
 				3DA2AC6B1C554EC3005C6FE6 /* retro-calculatorUITests */,
@@ -193,6 +203,7 @@
 				TargetAttributes = {
 					3DA2AC481C554EC3005C6FE6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MEW4FZA49A;
 					};
 					3DA2AC5C1C554EC3005C6FE6 = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,8 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA2AC7F1C557187005C6FE6 /* btn.wav in Resources */,
 				3DA2AC571C554EC3005C6FE6 /* LaunchScreen.storyboard in Resources */,
 				3DA2AC541C554EC3005C6FE6 /* Assets.xcassets in Resources */,
+				3DA2AC7B1C556ACC005C6FE6 /* Minecraft.ttf in Resources */,
 				3DA2AC521C554EC3005C6FE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA2AC7C1C556ACC005C6FE6 /* Minecraft.ttf in Resources */,
+				3DA2AC801C557187005C6FE6 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA2AC7D1C556ACC005C6FE6 /* Minecraft.ttf in Resources */,
+				3DA2AC811C557187005C6FE6 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "retro-calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaanek.retro-calculator";
@@ -408,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "retro-calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaanek.retro-calculator";
